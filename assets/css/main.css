@@ -1638,7 +1638,7 @@ body {
 
 .section--first,
 .section-backgroundImage {
-  height: 28.5rem;
+  height: 15rem;
 }
 
 @media (max-width: 767px) {
