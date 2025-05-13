@@ -10,8 +10,8 @@ relative_permalinks: true
 # Setup
 timezone:            'Europe/Brussels' # eg. Asia/Kathmandu
 locale:              'en_us' # eg. en_us
-name:				         "Aya'S Artwork"
-title:               "Aya'S Artwork"
+name:				         "Aja'S Artwork"
+title:               "Aja'S Artwork"
 tagline:             'Art is just meaningless'
 description:         'Hello, this is my website'
 url:                 'https://ArmonGo.github.io'
