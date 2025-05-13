@@ -3,75 +3,84 @@
 <script src="{{ site.baseurl_javascripts }}imagesloaded.pkgd.min.js"></script>
 
 {% if page.syntaxHighlighter %}
-  <script src="{{ site.baseurl_javascripts }}prism.js"></script>
-  <script src="{{ site.baseurl_javascripts }}plugins/prism-line-numbers.min.js"></script>
+<script src="{{ site.baseurl_javascripts }}prism.js"></script>
+<script src="{{ site.baseurl_javascripts }}plugins/prism-line-numbers.min.js"></script>
 {% endif %}
 
 <script>
 
+  // modal.js
   document.addEventListener('DOMContentLoaded', () => {
     const thumbs = document.querySelectorAll('.content-body .img');
-    let lastScrollY = 0;
+    let savedScrollY = 0;
 
     function showModal(url, alt = '') {
-      // 1) remember where the user was
-      lastScrollY = window.scrollY;
+      // 1) save current scroll position
+      savedScrollY = window.scrollY;
 
-      // 2) add class to disable scrolling
-      document.body.classList.add('modal-open');
+      // 2) lock the <body> in place
+      Object.assign(document.body.style, {
+        position: 'fixed',
+        top: `-${savedScrollY}px`,
+        left: '0',
+        width: '100%',
+      });
 
-      // 3) build the overlay
+      // 3) build & show the modal
       const backdrop = document.createElement('div');
       backdrop.className = 'image-modal-backdrop';
       const img = document.createElement('img');
       img.src = url;
       img.alt = alt;
       backdrop.appendChild(img);
-
-      // 4) append it, then jump to top
       document.body.appendChild(backdrop);
-      window.scrollTo(0, 0);
 
-      // 5) close handler: remove modal, restore scroll
+      // 4) close handler
       backdrop.addEventListener('click', () => {
+        // remove modal
         backdrop.remove();
-        document.body.classList.remove('modal-open');
-        window.scrollTo(0, lastScrollY);
+        // restore <body> positioning
+        Object.assign(document.body.style, {
+          position: '',
+          top: '',
+          left: '',
+          width: '',
+        });
+        // jump back to where they were
+        window.scrollTo(0, savedScrollY);
       });
     }
 
     thumbs.forEach(el => {
       el.addEventListener('click', () => {
         let imgUrl = '', altText = '';
-
         if (el.tagName === 'IMG') {
           imgUrl = el.src;
           altText = el.alt || '';
         } else {
           const bg = getComputedStyle(el).backgroundImage;
-          const m  = bg.match(/^url\(["']?(.*?)["']?\)$/);
+          const m = bg.match(/^url\(["']?(.*?)["']?\)$/);
           if (m) imgUrl = m[1];
         }
-
         if (imgUrl) showModal(imgUrl, altText);
       });
     });
   });
 
 
-  $(document).ready(function(){
+  $(document).ready(function () {
 
     // Featured image loaded behavior
     $('.section-backgroundImage img').imagesLoaded()
-      .done( function( instance ) {
+      .done(function (instance) {
         $('.post-featuredImage').addClass('is-loaded');
       });
 
     // Modal toggle behavior
-    $('.modal-toggle-wrapper').click(function() {
-    	$(this).toggleClass('active');
+    $('.modal-toggle-wrapper').click(function () {
+      $(this).toggleClass('active');
       $('.modal-toggle-bubble').toggleClass('active');
-    	$('.modal-toggle-bubbleShadow').toggleClass('active');
+      $('.modal-toggle-bubbleShadow').toggleClass('active');
       $('.modal-toggle-close-wrapper').toggleClass('active');
       $('.fullscreenModal').toggleClass('active');
     });
@@ -86,17 +95,17 @@
 
       //// Set title and open popup with focus on it
       var strTitle = ((typeof this.attr('title') !== 'undefined') ? this.attr('title') : 'Social Share'),
-          strParam = 'width=' + intWidth + ',height=' + intHeight + ',resizable=' + strResize,
-          objWindow = window.open(this.attr('href'), strTitle, strParam).focus();
+        strParam = 'width=' + intWidth + ',height=' + intHeight + ',resizable=' + strResize,
+        objWindow = window.open(this.attr('href'), strTitle, strParam).focus();
     }
 
-    $('.shareButton').on("click", function(e) {
+    $('.shareButton').on("click", function (e) {
       $(this).sharePopup(e);
     });
   });
 
   // Show modal toggle after scrolling 300px
-  $(document).scroll(function() {
+  $(document).scroll(function () {
     $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
   });
 </script>
