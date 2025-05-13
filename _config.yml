@@ -13,8 +13,8 @@ name:                     'Aja''S Artwork'
 title:                    'Aja''S Artwork'
 tagline:                  'Art is just meaningless'
 description:              'Hello, this is my website'
-url:                      'https://ArmonGo.github.io'
-rss:                      '/rss'
+url:                      'https://armongo.github.io'
+rss:                      '/feed.xml'
 baseurl:                  '/'
 baseurl_posts_img:        '/assets/images/posts/'
 baseurl_featured_img:     '/assets/images/hero/'
@@ -24,7 +24,7 @@ icon:                     '/assets/img/icon.png'
 
 author:
   name:                   'Yameng'
-  url:                    'https://ArmonGo.github.io'
+  url:                    'https://armongo.github.io'
   # facebook:              username
   # twitter:               username
   # …
