@@ -13,9 +13,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/falling.png);"></div>
-<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/glass.png);"></div>
-<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/mirror.png);"></div>
-<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/heart.png);"></div>
+<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/falling.png);"></div>
+<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/glass.png);"></div>
+<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/mirror.png);"></div>
+<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/heart.png);"></div>
 
 A couple of charcoal drawn postcards with topics close to me.
