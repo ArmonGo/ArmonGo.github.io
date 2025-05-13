@@ -1981,6 +1981,15 @@ body {
   box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
+.blockGroup-list .postArticle-wrapper-top {
+  box-shadow: none !important;
+}
+
+.blockGroup-list .postArticle-wrapper-top:hover {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none !important;
+}
+
 .blockGroup-list .postArticle a {
   color: #222;
   background: transparent;
