@@ -12,38 +12,18 @@ layout: default
         {% endif %}
         " alt="">
       {% endif %}
-
+      
     </div>
-    <div class="section-gradient
-    {% if page.bgGradientOpacity == "darker" %}
-      section-gradient--darker
-    {% elsif page.bgGradientOpacity == "lighter" %}
-      section-gradient--lighter
-    {% endif %}
-    "></div>
+
+    <div class="section-gradient section-gradient--darker"></div>
 
     <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
       <div class="container">
         <h2>{{ page.title }}</h2>
-        <div class="postMeta-wrapper">
-          <ul class="postMeta">
-            <li class="postMeta-datetime">
-              <time datetime="{{ page.date }}">
-                {{ page.date | date_to_string }}
-              </time>
-            </li>
-            <li class="postMeta-author">
-              By {{ site.author.name }}
-            </li>
-            <li class="postMeta-tags">
-              {{ page.categories }}
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   </section>
-  
+
   <section class="section--last">
     <div class="container container--content">
       <div class="content-body">
