@@ -2184,6 +2184,7 @@ body {
   clear: both;
   padding: 1.5rem 0 6rem;
   background: #fff;
+  min-height: 640px;
 }
 
 .content-author {
