@@ -490,6 +490,12 @@ hr {
 html,
 body {
   overflow-x: hidden;
+  background-image: url("/assets/images/hero/butter.png");
+  backdrop-filter: grayscale(1) blur(2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
 }
 
 @media (max-width: 767px) {
@@ -520,17 +526,9 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
   padding: 0;
   text-indent: -100em;
   overflow: hidden;
-}
-
-.textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
 }
 
 .textLogo--sidebar {
@@ -547,16 +545,13 @@ body {
 
 .textLogo--frontpage {
   position: absolute;
-  top: 132px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 500;
   margin: 0;
-  width: 276px;
+  width: 600px;
   height: 50px;
-  background-size: 100%;
-  background-position: 0;
-  opacity: 0.9;
 }
 
 @media (max-width: 767px) {
@@ -1871,7 +1866,8 @@ body {
 
 .section--postsWrapper {
   width: 100%;
-  background: #f2f2f2;
+  background: #fff;
+  opacity: 0.9;
   padding-top: 0;
   position: relative;
   clear: both;
