@@ -5,6 +5,10 @@
 
   <body>
 
+    {% if page.url != '/index.html' %}
+      {% include menu.html %}
+    {% endif %}
+
     {{ content }}
 
     {% if page.url == '/index.html' %}
