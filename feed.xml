@@ -7,6 +7,17 @@
 		<atom:link href="https://armongo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Scketches</title>
+				
+				
+					<description>Some quick sketches I made</description>
+				
+				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<link>https://armongo.github.io/sketches</link>
+				<guid isPermaLink="true">https://armongo.github.io/sketches</guid>
+			</item>
+		
+			<item>
 				<title>Animals</title>
 				
 				
