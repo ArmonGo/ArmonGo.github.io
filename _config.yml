@@ -21,7 +21,12 @@ baseurl_featured_img:     '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts:      '/assets/javascripts/'
 icon:                     '/assets/img/icon.png'
-# disqus:                 disqus_shortname
+
+site:
+  name:                     "Aja'S Artwork"
+  title:                    "Aja'S Artwork"
+  tagline:                  'Art is just meaningless'
+  description:              'Hello, this is my website'
 
 author:
   name:                   'Yameng'
