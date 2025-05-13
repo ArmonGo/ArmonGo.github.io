@@ -435,6 +435,10 @@ hr {
   width: 100%;
 }
 
+.img--halfContainer img {
+  width: 50%;
+}
+
 .img--5xLeading {
   height: 7.5rem;
 }
