@@ -1650,6 +1650,8 @@ body {
 .section--frontpage,
 .section--frontpage ~ .post-featuredImage {
   height: 18rem;
+  background: #fff;
+  opacity: 0.9;
 }
 
 @media (max-width: 767px) {
@@ -2052,6 +2054,7 @@ body {
 .section--subscribe {
   width: 100%;
   background: #fff;
+  opacity: 0.9;
   padding: 1.5rem 0 0;
   position: relative;
   z-index: 400;
@@ -2068,6 +2071,7 @@ body {
 .section--footer {
   width: 100%;
   background: #fff;
+  opacity: 0.9;
   padding: 1.5rem 0 3rem;
   position: relative;
   z-index: 400;
