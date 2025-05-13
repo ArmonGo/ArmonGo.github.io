@@ -433,10 +433,12 @@ hr {
 
 .img--fullContainer {
   width: 100%;
+  clear: both;
 }
 
 .img--halfContainer {
   width: 50%;
+  float: left;
 }
 
 .img--5xLeading {
