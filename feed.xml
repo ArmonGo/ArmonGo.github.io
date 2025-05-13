@@ -3,8 +3,8 @@
 	<channel>
 		<title>Aja&#39;S Artwork</title>
 		<description>Hello, this is my website</description>
-		<link>https://ArmonGo.github.io</link>
-		<atom:link href="https://ArmonGo.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://armongo.github.io</link>
+		<atom:link href="https://armongo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Animals</title>
@@ -13,8 +13,8 @@
 					<description>Animal illustrations for a book project</description>
 				
 				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-				<link>https://ArmonGo.github.io/animal-illustrations</link>
-				<guid isPermaLink="true">https://ArmonGo.github.io/animal-illustrations</guid>
+				<link>https://armongo.github.io/animal-illustrations</link>
+				<guid isPermaLink="true">https://armongo.github.io/animal-illustrations</guid>
 			</item>
 		
 	</channel>
