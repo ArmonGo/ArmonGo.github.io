@@ -1,51 +1,52 @@
-
 # Syntax highlighting
-markdown:            redcarpet
-highlighter:         pygments
+markdown:                 redcarpet
+highlighter:              pygments
 
 # Permalinks
-permalink:           /:title
-relative_permalinks: true
+permalink:                /:title
+relative_permalinks:      true
 
 # Setup
-timezone:            'Europe/Brussels' # eg. Asia/Kathmandu
-locale:              'en_us' # eg. en_us
-name:				         "Aja'S Artwork"
-title:               "Aja'S Artwork"
-tagline:             'Art is just meaningless'
-description:         'Hello, this is my website'
-url:                 'https://ArmonGo.github.io'
-rss:                 '/rss'
-baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
+timezone:                 'Europe/Brussels'
+locale:                   'en_us'
+name:                     "Aja'S Artwork"
+title:                    "Aja'S Artwork"
+tagline:                  'Art is just meaningless'
+description:              'Hello, this is my website'
+url:                      'https://ArmonGo.github.io'
+rss:                      '/rss'
+baseurl:                  '/'
+baseurl_posts_img:        '/assets/images/posts/'
+baseurl_featured_img:     '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
-icon:                '/assets/img/icon.png' # [best 300px X 300px]
-#disqus:              disqus_shortname # get it on https://disqus.com/admin/
+baseurl_javascripts:      '/assets/javascripts/'
+icon:                     '/assets/img/icon.png'
+# disqus:                 disqus_shortname
 
 author:
-  name:           	 'Yameng'
-  url:            	 'https://ArmonGo.github.io'
-#  facebook:          username
-#  twitter:           username
-#  google_plus:       username
-#  linkedin:          username
-#  dribbble:          username
-#  pinterest:         username
-#  kiva:              username
-
-#fb_admins:           your facebook profile id
-#fb_appid:            your facebook app id
+  name:                   'Yameng'
+  url:                    'https://ArmonGo.github.io'
+  # facebook:              username
+  # twitter:               username
+  # …
 
 # Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
+destination:              ./_site
+exclude:
+  - ".editorconfig"
+  - ".gitignore"
+  - "CNAME"
+  - "package.json"
+  - "README.md"
+  - "sass"
+  - "haml"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "Dockerfile"
+port:                     9001
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "_posts"
       type: "posts"
     values:
