@@ -8,6 +8,48 @@
 {% endif %}
 
 <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const elems = document.querySelectorAll('.content-body .img');
+
+    function showModal(url, alt = '') {
+      const backdrop = document.createElement('div');
+      backdrop.className = 'image-modal-backdrop';
+
+      const img = document.createElement('img');
+      img.src = url;
+      img.alt = alt;
+      backdrop.appendChild(img);
+
+      backdrop.addEventListener('click', () => {
+        document.body.removeChild(backdrop);
+      });
+
+      document.body.appendChild(backdrop);
+    }
+
+    elems.forEach(el => {
+      el.addEventListener('click', () => {
+        let imgUrl = '';
+        let altText = '';
+
+        if (el.tagName === 'IMG') {
+          imgUrl = el.src;
+          altText = el.alt || '';
+        } else {
+          // extract URL from background-image: url("...") or url(...)
+          const bg = getComputedStyle(el).backgroundImage;
+          const match = bg.match(/^url\(["']?(.*?)["']?\)$/);
+          if (match) imgUrl = match[1];
+        }
+
+        if (imgUrl) {
+          showModal(imgUrl, altText);
+        }
+      });
+    });
+  });
+
+  
   $(document).ready(function(){
 
     // Featured image loaded behavior
