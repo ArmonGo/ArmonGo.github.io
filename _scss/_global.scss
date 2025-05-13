@@ -9,8 +9,9 @@ body {
   @media (max-width: $screen-xs-max) {
     padding-right: 0;
   }
+}
 
-
+body {
   background-image: url('/assets/images/hero/butter.png');
   backdrop-filter: grayscale(1) blur(4px);
   background-repeat: no-repeat;
