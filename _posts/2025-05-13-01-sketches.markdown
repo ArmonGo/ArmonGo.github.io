@@ -7,7 +7,7 @@ excerpt: "Some quick sketches I made"
 categories: sketches, people
 image:
   feature: old.png
-  topPosition: -500px
+  topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
@@ -19,5 +19,6 @@ syntaxHighlighter: no
 <div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/angry.png);"></div>
 <div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/old.png);"></div>
 
+<div style="clear: both;"></div>
 
 Some quick sketches of various people.
