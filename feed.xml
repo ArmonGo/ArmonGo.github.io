@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Aya&#39;S Artwork</title>
+		<title>Aja&#39;S Artwork</title>
 		<description>Hello, this is my website</description>
 		<link>https://ArmonGo.github.io</link>
 		<atom:link href="https://ArmonGo.github.io/feed.xml" rel="self" type="application/rss+xml" />
