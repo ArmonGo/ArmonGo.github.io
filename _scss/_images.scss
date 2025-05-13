@@ -67,12 +67,13 @@
   height: 16*$leading;
 }
 
+/* modal.css */
 .image-modal-backdrop {
   position: fixed;
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background: white;
+  background: rgba(0,0,0,0.85);
   display: grid;
   place-items: center;
   cursor: zoom-out;
@@ -87,7 +88,11 @@
   margin: 0;
 }
 
-/* indicate clickable thumbnails */
 .content-body .img {
   cursor: zoom-in;
+}
+
+/* freeze scrolling when modal is open */
+body.modal-open {
+  overflow: hidden;
 }
