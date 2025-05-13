@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.img--halfContainer img {
+  width: 50%;
+}
+
 .img--5xLeading {
   height: 5*$leading;
 }
