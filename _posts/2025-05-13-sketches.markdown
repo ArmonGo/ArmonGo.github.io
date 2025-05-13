@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Scketches"
+date:   2025-05-13 00:00:00
+last_modified_at:  2025-05-13 00:00:00
+excerpt: "Some quick sketches I made"
+categories: sketches, people
+image:
+  feature: old.png
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+
+<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/man.png);"></div>
+<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/kid.png);"></div>
+<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/cutie.png);"></div>
+<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/angry.png);"></div>
+<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/old.png);"></div>
+
+<div style="clear: both;"></div>
+
+This project was the result of me working on a book for my illustration class. I had a lot of fun drawing these cute animals.
+
+Tools used: Procreate, Adobe Photoshop.
