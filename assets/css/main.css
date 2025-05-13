@@ -500,7 +500,6 @@ hr {
   place-items: center;
   cursor: zoom-out;
   z-index: 9999;
-  overflow: hidden;
 }
 
 .image-modal-backdrop img {
@@ -511,6 +510,7 @@ hr {
   margin: 0;
 }
 
+/* indicate clickable thumbnails */
 .content-body .img {
   cursor: zoom-in;
 }

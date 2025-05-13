@@ -258,22 +258,19 @@
 
 
 <script>
+
   document.addEventListener('DOMContentLoaded', () => {
-    const elems = document.querySelectorAll('.content-body .img');
-    let scrollY = 0;
+    const thumbs = document.querySelectorAll('.content-body .img');
+    let lastScrollY = 0;
 
     function showModal(url, alt = '') {
-      // 1) capture current scroll position
-      scrollY = window.scrollY || window.pageYOffset;
+      // 1) capture where the user is
+      lastScrollY = window.scrollY;
 
-      // 2) freeze the page at that position
-      document.body.style.position = 'fixed';
-      document.body.style.top      = `-${scrollY}px`;
-      document.body.style.left     = '0';
-      document.body.style.right    = '0';
-      // (width is implied)
+      // 2) prevent background scroll (but keep them at lastScrollY)
+      document.body.style.overflow = 'hidden';
 
-      // 3) create & show the modal
+      // 3) build the overlay
       const backdrop = document.createElement('div');
       backdrop.className = 'image-modal-backdrop';
       const img = document.createElement('img');
@@ -281,28 +278,22 @@
       img.alt = alt;
       backdrop.appendChild(img);
 
+      // 4) close handler
       backdrop.addEventListener('click', () => {
-        // remove modal
-        document.body.removeChild(backdrop);
-        // 4) un-freeze the page, restoring scroll
-        document.body.style.position = '';
-        document.body.style.top      = '';
-        document.body.style.left     = '';
-        document.body.style.right    = '';
-        window.scrollTo(0, scrollY);
+        backdrop.remove();                    // remove modal
+        document.body.style.overflow = '';    // restore scroll
+        window.scrollTo(0, lastScrollY);      // go back to where they were
       });
 
       document.body.appendChild(backdrop);
     }
 
-    elems.forEach(el => {
-      el.style.cursor = 'zoom-in';
+    thumbs.forEach(el => {
       el.addEventListener('click', () => {
-        let imgUrl = '';
-        let altText = '';
+        let imgUrl = '', altText = '';
 
         if (el.tagName === 'IMG') {
-          imgUrl  = el.src;
+          imgUrl = el.src;
           altText = el.alt || '';
         } else {
           const bg = getComputedStyle(el).backgroundImage;
@@ -315,8 +306,6 @@
     });
   });
 
-
-  
   $(document).ready(function(){
 
     // Featured image loaded behavior
