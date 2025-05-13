@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Postcards"
+date:   2025-05-13 00:00:00
+last_modified_at:  2025-05-13 00:00:00
+excerpt: "Charcoal postcards"
+categories: drawing, postcards
+image:
+  feature: mirror.png
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+
+<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/falling.png);"></div>
+<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/glass.png);"></div>
+<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/mirror.png);"></div>
+<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_posts_img }}postcards/heart.png);"></div>
+
+A couple of charcoal drawn postcards with topics close to me.
