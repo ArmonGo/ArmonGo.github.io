@@ -9,6 +9,14 @@ body {
   @media (max-width: $screen-xs-max) {
     padding-right: 0;
   }
+
+
+  background-image: url('/assets/images/hero/butter.png');
+  backdrop-filter: grayscale(1) blur(2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
 }
 
 .brandLogo {
@@ -32,17 +40,9 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
   padding: 0;
   text-indent: -100em;
   overflow: hidden;
-}
-
-.textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
 }
 
 .textLogo--sidebar {
@@ -59,16 +59,13 @@ body {
 
 .textLogo--frontpage {
   position: absolute;
-  top: 132px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: $zIndex-5--textlogo-frontpage;
   margin: 0;
-  width: 276px;
+  width: 600px;
   height: 50px;
-  background-size: 100%;
-  background-position: 0;
-  opacity: 0.9;
 
   @media (max-width: $screen-xs-max) {
     width: 182px;
