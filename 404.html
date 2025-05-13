@@ -167,44 +167,61 @@
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const elems = document.querySelectorAll('.content-body .img');
+    let scrollY = 0;
 
     function showModal(url, alt = '') {
+      // 1) capture current scroll position
+      scrollY = window.scrollY || window.pageYOffset;
+
+      // 2) freeze the page at that position
+      document.body.style.position = 'fixed';
+      document.body.style.top      = `-${scrollY}px`;
+      document.body.style.left     = '0';
+      document.body.style.right    = '0';
+      // (width is implied)
+
+      // 3) create & show the modal
       const backdrop = document.createElement('div');
       backdrop.className = 'image-modal-backdrop';
-
       const img = document.createElement('img');
       img.src = url;
       img.alt = alt;
       backdrop.appendChild(img);
 
       backdrop.addEventListener('click', () => {
+        // remove modal
         document.body.removeChild(backdrop);
+        // 4) un-freeze the page, restoring scroll
+        document.body.style.position = '';
+        document.body.style.top      = '';
+        document.body.style.left     = '';
+        document.body.style.right    = '';
+        window.scrollTo(0, scrollY);
       });
 
       document.body.appendChild(backdrop);
     }
 
     elems.forEach(el => {
+      el.style.cursor = 'zoom-in';
       el.addEventListener('click', () => {
         let imgUrl = '';
         let altText = '';
 
         if (el.tagName === 'IMG') {
-          imgUrl = el.src;
+          imgUrl  = el.src;
           altText = el.alt || '';
         } else {
-          // extract URL from background-image: url("...") or url(...)
           const bg = getComputedStyle(el).backgroundImage;
-          const match = bg.match(/^url\(["']?(.*?)["']?\)$/);
-          if (match) imgUrl = match[1];
+          const m  = bg.match(/^url\(["']?(.*?)["']?\)$/);
+          if (m) imgUrl = m[1];
         }
 
-        if (imgUrl) {
-          showModal(imgUrl, altText);
-        }
+        if (imgUrl) showModal(imgUrl, altText);
       });
     });
   });
+
 
   
   $(document).ready(function(){

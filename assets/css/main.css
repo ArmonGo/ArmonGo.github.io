@@ -491,26 +491,24 @@ hr {
 
 .image-modal-backdrop {
   position: fixed;
-  inset: 0;
-  /* shorthand for top/right/bottom/left = 0 */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: white;
   display: grid;
-  /* switch to grid */
   place-items: center;
-  /* center both horizontally & vertically */
   cursor: zoom-out;
   z-index: 9999;
+  overflow: hidden;
 }
 
-/* Ensure the image itself is a block and sized proportionally */
 .image-modal-backdrop img {
-  display: block;
-  /* remove inline weirdness */
   max-width: 90vw;
-  /* viewport-width units for consistency */
   max-height: 90vh;
-  /* viewport-height units */
+  display: block;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 0;
 }
 
 .content-body .img {
