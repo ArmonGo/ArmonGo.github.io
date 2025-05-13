@@ -9,8 +9,8 @@ relative_permalinks:      true
 # Setup
 timezone:                 'Europe/Brussels'
 locale:                   'en_us'
-name:                     "Aja'S Artwork"
-title:                    "Aja'S Artwork"
+name:                     'Aja''S Artwork'
+title:                    'Aja''S Artwork'
 tagline:                  'Art is just meaningless'
 description:              'Hello, this is my website'
 url:                      'https://ArmonGo.github.io'
@@ -23,8 +23,8 @@ baseurl_javascripts:      '/assets/javascripts/'
 icon:                     '/assets/img/icon.png'
 
 site:
-  name:                     "Aja'S Artwork"
-  title:                    "Aja'S Artwork"
+  name:                     'Aja''S Artwork'
+  title:                    'Aja''S Artwork'
   tagline:                  'Art is just meaningless'
   description:              'Hello, this is my website'
 
