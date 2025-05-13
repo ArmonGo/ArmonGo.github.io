@@ -21,6 +21,4 @@ syntaxHighlighter: no
 
 <div style="clear: both;"></div>
 
-This project was the result of me working on a book for my illustration class. I had a lot of fun drawing these cute animals.
-
-Tools used: Procreate, Adobe Photoshop.
+Some quick sketches of various people.
