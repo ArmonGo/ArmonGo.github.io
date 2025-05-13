@@ -38,9 +38,13 @@ title: Home
                   </div>
                 </a>
                 {% endif %}
-                <!-- <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a> -->
+                {% if forloop.index > 1 %}
+                <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>
+                {% endif %}
               </article>
-              <!-- <div class="block-postMeta">{{ post.date | date_to_string }}</div> -->
+              {% if forloop.index > 1 %}
+              <div class="block-postMeta">{{ post.date | date_to_string }}</div>
+              {% endif %}
             </div>
           </li>
         {% endfor %}
