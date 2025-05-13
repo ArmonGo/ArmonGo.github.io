@@ -8,8 +8,8 @@ categories: sketches, people
 image:
   feature: old.png
   topPosition: 0px
-bgContrast: dark
-bgGradientOpacity: darker
+bgContrast: light
+bgGradientOpacity: lighter
 syntaxHighlighter: no
 ---
 
