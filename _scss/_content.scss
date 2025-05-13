@@ -130,6 +130,15 @@
     }
   }
 
+  .postArticle-wrapper-top {
+    box-shadow: none !important;
+
+    &:hover {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: none !important;
+    }
+  }
+
   .postArticle a {
     color: $black;
     background: transparent;

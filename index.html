@@ -25,7 +25,7 @@ title: Home
       <ul class="blockGroup-list">
         {% for post in site.posts %}
           <li class="block">
-            <div class="postArticle-wrapper">
+            <div class="postArticle-wrapper {% if forloop.index > 1 %}postArticle-wrapper--top{% endif %}">
               <article class="postArticle postArticle--short">
                 {% if post.image.feature %}
                   <a href="{{ post.url }}">
