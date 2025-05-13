@@ -7,7 +7,7 @@ excerpt: "Some quick sketches I made"
 categories: sketches, people
 image:
   feature: old.png
-  topPosition: 0px
+  topPosition: -3000px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no

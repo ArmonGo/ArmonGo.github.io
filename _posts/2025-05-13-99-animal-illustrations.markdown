@@ -7,7 +7,7 @@ excerpt: "Animal illustrations for a book project"
 categories: illustration, animals
 image:
   feature: butter.png
-  topPosition: 0px
+  topPosition: -300px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no

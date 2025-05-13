@@ -7,7 +7,7 @@ excerpt: "Charcoal postcards"
 categories: drawing, postcards
 image:
   feature: mirror.png
-  topPosition: 0px
+  topPosition: -300px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
