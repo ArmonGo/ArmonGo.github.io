@@ -289,11 +289,11 @@
     let lastScrollY = 0;
 
     function showModal(url, alt = '') {
-      // 1) capture where the user is
+      // 1) remember where the user was
       lastScrollY = window.scrollY;
 
-      // 2) prevent background scroll (but keep them at lastScrollY)
-      document.body.style.overflow = 'hidden';
+      // 2) add class to disable scrolling
+      document.body.classList.add('modal-open');
 
       // 3) build the overlay
       const backdrop = document.createElement('div');
@@ -303,14 +303,16 @@
       img.alt = alt;
       backdrop.appendChild(img);
 
-      // 4) close handler
-      backdrop.addEventListener('click', () => {
-        backdrop.remove();                    // remove modal
-        document.body.style.overflow = '';    // restore scroll
-        window.scrollTo(0, lastScrollY);      // go back to where they were
-      });
-
+      // 4) append it, then jump to top
       document.body.appendChild(backdrop);
+      window.scrollTo(0, 0);
+
+      // 5) close handler: remove modal, restore scroll
+      backdrop.addEventListener('click', () => {
+        backdrop.remove();
+        document.body.classList.remove('modal-open');
+        window.scrollTo(0, lastScrollY);
+      });
     }
 
     thumbs.forEach(el => {
@@ -330,6 +332,7 @@
       });
     });
   });
+
 
   $(document).ready(function(){
 
