@@ -23,10 +23,10 @@ baseurl_javascripts:      '/assets/javascripts/'
 icon:                     '/assets/img/icon.png'
 
 site:
-  name:                     'Aja''S Artwork'
-  title:                    'Aja''S Artwork'
-  tagline:                  'Art is just meaningless'
-  description:              'Hello, this is my website'
+  name:                   'Aja''S Artwork'
+  title:                  'Aja''S Artwork'
+  tagline:                'Art is just meaningless'
+  description:            'Hello, this is my website'
 
 author:
   name:                   'Yameng'
