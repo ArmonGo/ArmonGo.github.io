@@ -196,24 +196,26 @@
 
 <script>
 
-  // modal.js
   document.addEventListener('DOMContentLoaded', () => {
     const thumbs = document.querySelectorAll('.content-body .img');
-    let savedScrollY = 0;
+    let lastScrollY = 0;
 
     function showModal(url, alt = '') {
-      // 1) save current scroll position
-      savedScrollY = window.scrollY;
+      // 1️⃣ remember where they were
+      lastScrollY = window.scrollY;
 
-      // 2) lock the <body> in place
+      // 2️⃣ scroll the page to top
+      window.scrollTo(0, 0);
+
+      // 3️⃣ lock the body at the top
       Object.assign(document.body.style, {
         position: 'fixed',
-        top: `-${savedScrollY}px`,
+        top: '0',
         left: '0',
         width: '100%',
       });
 
-      // 3) build & show the modal
+      // 4️⃣ build & show the overlay
       const backdrop = document.createElement('div');
       backdrop.className = 'image-modal-backdrop';
       const img = document.createElement('img');
@@ -222,19 +224,18 @@
       backdrop.appendChild(img);
       document.body.appendChild(backdrop);
 
-      // 4) close handler
+      // 5️⃣ on click: remove & restore
       backdrop.addEventListener('click', () => {
-        // remove modal
         backdrop.remove();
-        // restore <body> positioning
+        // un-lock body
         Object.assign(document.body.style, {
           position: '',
           top: '',
           left: '',
           width: '',
         });
-        // jump back to where they were
-        window.scrollTo(0, savedScrollY);
+        // scroll back to where they were
+        window.scrollTo(0, lastScrollY);
       });
     }
 
@@ -253,6 +254,7 @@
       });
     });
   });
+
 
 
   $(document).ready(function () {
