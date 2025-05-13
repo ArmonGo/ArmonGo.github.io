@@ -204,6 +204,7 @@
 .section--subscribe {
   width: 100%;
   background: $white;
+  opacity: 0.9;
   padding: $leading 0 0;
   position: relative;
   z-index: $zIndex-4--posts-wrapper;
@@ -221,6 +222,7 @@
 .section--footer {
   width: 100%;
   background: $white;
+  opacity: 0.9;
   padding: $leading 0 2*$leading;
   position: relative;
   z-index: $zIndex-4--posts-wrapper;

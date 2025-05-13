@@ -22,6 +22,9 @@
 .section--frontpage ~ .post-featuredImage {
   height: 12 * $leading;
 
+  background: $white;
+  opacity: 0.9;
+
   @media (max-width: $screen-xs-max) {
     height: 10 * $leading;
   }
