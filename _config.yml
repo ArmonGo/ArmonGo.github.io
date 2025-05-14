@@ -10,24 +10,19 @@ relative_permalinks:      true
 timezone:                 'Europe/Brussels'
 locale:                   'en_us'
 name:                     'Aja''S Artwork'
-title:                    'Aja''S Artwork'
 tagline:                  'Art is just meaningless'
-description:              'Hello, this is my website'
 url:                      'https://armongo.github.io'
 rss:                      '/feed.xml'
 baseurl:                  '/'
-baseurl_posts_img:        '/assets/images/posts/'
-baseurl_featured_img:     '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts:      '/assets/javascripts/'
-icon:                     '/assets/img/icon.png'
+baseurl_img:              '/assets/images/'
+baseurl_imgp:             '/assets/images/posts/'
+baseurl_hero:             '/assets/images/hero/'
+description:              'Aja''S Atwork: art is just meaningless'
 
 author:
-  name:                   'Yameng'
+  name:                   'Armon'
   url:                    'https://armongo.github.io'
-  # facebook:              username
-  # twitter:               username
-  # …
+  email:                  'armonguo@gmail.com'
 
 # Server
 destination:              ./_site

@@ -1,113 +1,20 @@
-<!-- Javascript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{{ site.baseurl_javascripts }}imagesloaded.pkgd.min.js"></script>
-
-{% if page.syntaxHighlighter %}
-<script src="{{ site.baseurl_javascripts }}prism.js"></script>
-<script src="{{ site.baseurl_javascripts }}plugins/prism-line-numbers.min.js"></script>
-{% endif %}
-
+<!-- Modal -->
+<div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
 <script>
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const thumbs = document.querySelectorAll('.content-body .img');
-    let lastScrollY = 0;
-
-    function showModal(url, alt = '') {
-      // 1️⃣ remember where they were
-      lastScrollY = window.scrollY;
-
-      // 2️⃣ scroll the page to top
-      window.scrollTo(0, 0);
-
-      // 3️⃣ lock the body at the top
-      Object.assign(document.body.style, {
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        width: '100%',
-      });
-
-      // 4️⃣ build & show the overlay
-      const backdrop = document.createElement('div');
-      backdrop.className = 'image-modal-backdrop';
-      const img = document.createElement('img');
-      img.src = url;
-      img.alt = alt;
-      backdrop.appendChild(img);
-      document.body.appendChild(backdrop);
-
-      // 5️⃣ on click: remove & restore
-      backdrop.addEventListener('click', () => {
-        backdrop.remove();
-        // un-lock body
-        Object.assign(document.body.style, {
-          position: '',
-          top: '',
-          left: '',
-          width: '',
-        });
-        // scroll back to where they were
-        window.scrollTo(0, lastScrollY);
-      });
-    }
-
-    thumbs.forEach(el => {
-      el.addEventListener('click', () => {
-        let imgUrl = '', altText = '';
-        if (el.tagName === 'IMG') {
-          imgUrl = el.src;
-          altText = el.alt || '';
-        } else {
-          const bg = getComputedStyle(el).backgroundImage;
-          const m = bg.match(/^url\(["']?(.*?)["']?\)$/);
-          if (m) imgUrl = m[1];
-        }
-        if (imgUrl) showModal(imgUrl, altText);
-      });
+  // Dynamically set hero bar background
+  const heroUrl = document.querySelector('.header-bar').getAttribute('data-hero-bg');
+  document.querySelector('.header-bar').style.setProperty('--hero-bg', `url('${heroUrl}')`);
+  
+  document.querySelectorAll('.clickable').forEach(el => {
+    el.addEventListener('click', () => {
+      const src = el.getAttribute('data-src');
+      const modal = document.getElementById('imgModal');
+      modal.querySelector('img').src = src;
+      modal.style.display = 'flex';
     });
   });
-
-
-
-  $(document).ready(function () {
-
-    // Featured image loaded behavior
-    $('.section-backgroundImage img').imagesLoaded()
-      .done(function (instance) {
-        $('.post-featuredImage').addClass('is-loaded');
-      });
-
-    // Modal toggle behavior
-    $('.modal-toggle-wrapper').click(function () {
-      $(this).toggleClass('active');
-      $('.modal-toggle-bubble').toggleClass('active');
-      $('.modal-toggle-bubbleShadow').toggleClass('active');
-      $('.modal-toggle-close-wrapper').toggleClass('active');
-      $('.fullscreenModal').toggleClass('active');
-    });
-
-    // Prevent default anchor event and make a share popup
-    $.fn.sharePopup = function (e, intWidth, intHeight, blnResize) {
-
-      e.preventDefault();
-      intWidth = intWidth || '750';
-      intHeight = intHeight || '500';
-      strResize = (blnResize ? 'yes' : 'no');
-
-      //// Set title and open popup with focus on it
-      var strTitle = ((typeof this.attr('title') !== 'undefined') ? this.attr('title') : 'Social Share'),
-        strParam = 'width=' + intWidth + ',height=' + intHeight + ',resizable=' + strResize,
-        objWindow = window.open(this.attr('href'), strTitle, strParam).focus();
-    }
-
-    $('.shareButton').on("click", function (e) {
-      $(this).sharePopup(e);
-    });
-  });
-
-  // Show modal toggle after scrolling 300px
-  $(document).scroll(function () {
-    $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
+  document.getElementById('imgModal').addEventListener('click', e => {
+    // Close modal on any click
+    e.currentTarget.style.display = 'none';
   });
 </script>
