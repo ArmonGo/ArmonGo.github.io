@@ -11,7 +11,7 @@ images:
     size: half
   - src: posters/dag2.png
     size: half
-  - src: posters/jelly.png
+  - src: posters/jelly.jpg
     size: half
 ---
 
