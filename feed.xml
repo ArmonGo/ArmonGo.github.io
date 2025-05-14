@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Aja&#39;S Artwork</title>
-		<description>Aja&#39;S Atwork: art is just meaningless</description>
+		<title>Aja&apos;S Artwork</title>
+		<description>Aja&apos;S Atwork: art is just meaningless</description>
 		<link>https://armongo.github.io</link>
 		<atom:link href="https://armongo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
@@ -12,7 +12,7 @@
 				
 					<description>Animal illustrations for a book project</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/99-animal-illustrations</link>
 				<guid isPermaLink="true">https://armongo.github.io/99-animal-illustrations</guid>
 			</item>
@@ -23,7 +23,7 @@
 				
 					<description>Various comic animations</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/05-animation</link>
 				<guid isPermaLink="true">https://armongo.github.io/05-animation</guid>
 			</item>
@@ -34,7 +34,7 @@
 				
 					<description>Various book cover designs</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/04-covers</link>
 				<guid isPermaLink="true">https://armongo.github.io/04-covers</guid>
 			</item>
@@ -45,7 +45,7 @@
 				
 					<description>Posters</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/03-posters</link>
 				<guid isPermaLink="true">https://armongo.github.io/03-posters</guid>
 			</item>
@@ -56,7 +56,7 @@
 				
 					<description>Charcoal postcards</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/02-postcards</link>
 				<guid isPermaLink="true">https://armongo.github.io/02-postcards</guid>
 			</item>
@@ -67,7 +67,7 @@
 				
 					<description>Some quick sketches I made</description>
 				
-				<pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/01-sketches</link>
 				<guid isPermaLink="true">https://armongo.github.io/01-sketches</guid>
 			</item>
