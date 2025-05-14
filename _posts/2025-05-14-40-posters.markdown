@@ -7,11 +7,11 @@ image:
   feature: poster.png
   topPosition: -100px
 images:
-  - src: postcards/dag1.png
+  - src: posters/dag1.png
     size: half
-  - src: postcards/dag2.png
+  - src: posters/dag2.png
     size: half
-  - src: postcards/jelly.png
+  - src: posters/jelly.png
     size: half
 ---
 
