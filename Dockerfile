@@ -1,8 +1,15 @@
 FROM ruby:3.2-slim
 
+# Install build tools for native gems
+RUN apt-get update && \
+    apt-get install -y \
+      build-essential \
+      libffi-dev && \
+    rm -rf /var/lib/apt/lists/*
+
 WORKDIR /srv/jekyll
 
-# Install Bundler and the latest Jekyll
+# Install Bundler and Jekyll
 RUN gem install bundler -v 2.4.22 \
  && gem install jekyll -v '~>4.4'
 
@@ -10,6 +17,7 @@ RUN gem install bundler -v 2.4.22 \
 # COPY Gemfile ./
 # RUN bundle install || echo "No Gemfile detected, skipping bundle install"
 
+# Copy your site source in
 COPY . .
 
 # Build the site
