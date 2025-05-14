@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aja'S Atwork: art is just meaningless">
+  <link rel="canonical" href="https://armongo.github.io/about/">
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Me">
+  <meta name="twitter:description" content="Aja'S Atwork: art is just meaningless">
+  <meta name="twitter:image" content="https://armongo.github.io/">
+  <meta name="twitter:url" content="https://armongo.github.io/about/">
+  <!-- Open graph -->
+  <meta property="og:title" content="About Me">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://armongo.github.io/about/">
+  <meta property="og:image" content="https://armongo.github.io/">
+  <meta property="og:description" content="Aja'S Atwork: art is just meaningless">
+  <meta property="og:site_name" content="Aja'S Artwork">
+  <meta property="og:locale" content="en_us">
+  
+
+  
+  
+  
+
+  <title>
+    
+      About Me &middot; Aja'S Artwork
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Righteous&display=swap&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+</head>
 
 
 <body>
@@ -12,7 +57,6 @@
 </div>
   
 
-
   <div class="container container-under-hero">
     <article class="post-content">
   <h2>About Me</h2>
@@ -20,10 +64,29 @@
   <p>Hi, I’m Armon.</p>
 
 </article>
-    
+    <footer><p>&copy; 2025 by <a href="/about/"></a>.</p></footer>
   </div>
 
+  <!-- Modal -->
+<div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
+<script>
+  // Dynamically set hero bar background
+  const heroUrl = document.querySelector('.header-bar').getAttribute('data-hero-bg');
+  document.querySelector('.header-bar').style.setProperty('--hero-bg', `url('${heroUrl}')`);
   
+  document.querySelectorAll('.clickable').forEach(el => {
+    el.addEventListener('click', () => {
+      const src = el.getAttribute('data-src');
+      const modal = document.getElementById('imgModal');
+      modal.querySelector('img').src = src;
+      modal.style.display = 'flex';
+    });
+  });
+  document.getElementById('imgModal').addEventListener('click', e => {
+    // Close modal on any click
+    e.currentTarget.style.display = 'none';
+  });
+</script>
 
 </body>
 </html>
