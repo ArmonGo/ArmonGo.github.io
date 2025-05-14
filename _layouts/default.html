@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{{ include head.html }}
+{% include head.html %}
 
 <body>
 
@@ -11,13 +11,12 @@
     {% include header-post.html %}
   {% endif %}
 
-
   <div class="container {% if page.url != '/index.html' %}container-under-hero{% endif %}">
     {{ content }}
-    {{ include footer.html }}
+    {% include footer.html %}
   </div>
 
-  {{ include footer-scripts.html }}
+  {% include footer-scripts.html %}
 
 </body>
 </html>
