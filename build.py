@@ -51,37 +51,16 @@ def build_jekyll(config='_config.yml'):
     print(f'Running: {" ".join(cmd)}')
     subprocess.check_call(cmd)
 
-def main():
-    parser = argparse.ArgumentParser(description='Build pipeline replacement for Gulp')
-    parser.add_argument('--build-styles', action='store_true', help='Compile SCSS to CSS')
-    parser.add_argument('--thumbnails', action='store_true', help='Generate image thumbnails')
-    parser.add_argument('--jekyll', action='store_true', help='Build Jekyll site')
-    args = parser.parse_args()
-
-    project_root = Path(__file__).parent
-    if args.build_styles:
-        compile_styles(
-            scss_src=project_root / '_scss' / 'main.scss',
-            css_dest=project_root / 'assets' / 'css'
-        )
-    if args.thumbnails:
-        generate_thumbnails(
-            src_dir=project_root / 'assets' / 'images' / 'hero',
-            thumb_dir=project_root / 'assets' / 'images' / 'thumbnail'
-        )
-    if args.jekyll:
-        build_jekyll()
-
 if __name__ == '__main__':
     # Default behavior: run all steps in order
-    compile_styles(
-        scss_src=Path('_scss') / 'main.scss',
-        css_dest=Path('assets') / 'css'
-    )
-    generate_thumbnails(
-        src_dir=Path('assets') / 'images' / 'hero',
-        thumb_dir=Path('assets') / 'images' / 'thumbnail'
-    )
+    # compile_styles(
+    #     scss_src=Path('_scss') / 'main.scss',
+    #     css_dest=Path('assets') / 'css'
+    # )
+    # generate_thumbnails(
+    #     src_dir=Path('assets') / 'images' / 'hero',
+    #     thumb_dir=Path('assets') / 'images' / 'thumbnail'
+    # )
     build_jekyll()
 
 
