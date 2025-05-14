@@ -319,7 +319,7 @@ footer a:active {
 /* Image layouts */
 .img-full {
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     margin: 40px 0;
@@ -334,7 +334,7 @@ footer a:active {
 
 .img-half {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-position: center;
 }
