@@ -1,5 +1,13 @@
-<div class="header-bar" data-hero-bg="{{ page.image.feature | prepend: site.baseurl_hero }}"
-  style="{%- if page.image.topPosition -%}top:{{ page.image.topPosition }};{%- endif -%}">
+<div
+  class="header-bar"
+  {% if page.image.feature %}
+  style="
+    background-image: url('{{ page.image.feature | prepend: site.baseurl_hero }}');
+    background-position: center {% if page.image.topPosition %}{{ page.image.topPosition }}{% endif %};
+    background-size: cover;
+  "
+  {% endif %}
+>
   <a href="{{ site.baseurl }}" class="back-arrow" aria-label="Back to Home">&#8592;</a>
   <h1 class="hero-title">{{ page.title }}</h1>
 </div>
