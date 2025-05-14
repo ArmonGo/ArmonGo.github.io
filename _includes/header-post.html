@@ -5,7 +5,12 @@
     background-image: url('{{ page.image.feature | prepend: site.baseurl_hero }}');
     background-position: center {% if page.image.topPosition %}{{ page.image.topPosition }}{% endif %};
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   "
+  {% else %}
+  style="background-color: #222;"
   {% endif %}
 >
   <a href="{{ site.baseurl }}" class="back-arrow" aria-label="Back to Home">&#8592;</a>

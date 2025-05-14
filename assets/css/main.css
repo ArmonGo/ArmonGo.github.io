@@ -35,12 +35,6 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    /* default black before JS sets background */
-    background-color: #000;
-    background-image: var(--hero-bg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     filter: blur(4px);
     transition: filter 0.3s ease;
     z-index: 0;
