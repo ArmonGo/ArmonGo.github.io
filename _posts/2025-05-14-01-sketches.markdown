@@ -2,23 +2,21 @@
 layout: post
 title:  "Sketches"
 date:   2025-05-13 00:00:00
-last_modified_at:  2025-05-13 00:00:00
-excerpt: "Some quick sketches I made"
-categories: sketches, people
+excerpt: "Quick sketches of various people"
 image:
   feature: old.png
-  topPosition: -100px
-bgContrast: dark
-bgGradientOpacity: darker
-syntaxHighlighter: no
+  topPosition: -500px
+images:
+  - src: sketches/man.png
+    size: half
+  - src: sketches/kid.png
+    size: half
+  - src: sketches/cutie.png
+    size: half
+  - src: sketches/angry.png
+    size: half
+  - src: sketches/old.png
+    size: half
 ---
 
-<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/man.png);"></div>
-<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/kid.png);"></div>
-<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/cutie.png);"></div>
-<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/angry.png);"></div>
-<div class="img img--halfContainer img--6xLeading" style="background-image: url({{ site.baseurl_posts_img }}sketches/old.png);"></div>
-
-<div style="clear: both;"></div>
-
-Some quick sketches of various people.
+Some quick sketches of various people. Drawn using Procreate and an iPad Pro.
