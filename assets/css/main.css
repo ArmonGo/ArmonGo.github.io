@@ -168,7 +168,7 @@ header .tagline {
 /* Post image styling */
 .post .image {
     width: 100%;
-    background-size: 700px auto;
+    background-size: 900px auto;
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(100%);
