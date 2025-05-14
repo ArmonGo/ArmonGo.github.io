@@ -21,4 +21,4 @@ RUN gem install bundler -v 2.4.22 \
 COPY . .
 
 # Build the site
-CMD ["jekyll", "build", "--config", "_config.yml"]
+CMD ["jekyll", "build", "--trace", "--config", "_config.yml"]
