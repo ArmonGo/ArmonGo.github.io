@@ -255,7 +255,7 @@ footer a:visited,
 footer a:hover,
 footer a:active {
     color: #777;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
