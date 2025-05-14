@@ -168,7 +168,7 @@ header .tagline {
 }
 
 /* Post image styling */
-.post-image {
+.post .image {
     width: 100%;
     background-size: 1000px auto;
     background-position: center;
@@ -177,7 +177,7 @@ header .tagline {
     transition: filter 0.3s ease;
 }
 
-.post:hover .post-image {
+.post:hover .image {
     filter: grayscale(0%);
 }
 
