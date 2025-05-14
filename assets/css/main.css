@@ -213,7 +213,7 @@ header .tagline {
 
 .post-link:nth-child(2) .image,
 .post-link:nth-child(3) .image {
-    height: 500px;
+    height: 400px;
 }
 
 .post-link:nth-child(n+4) {
@@ -221,7 +221,7 @@ header .tagline {
 }
 
 .post-link:nth-child(n+4) .image {
-    height: 400px;
+    height: 300px;
 }
 
 /* Responsive: single column */
