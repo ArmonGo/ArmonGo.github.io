@@ -172,7 +172,7 @@ header .tagline {
 /* Post image styling */
 .post .image {
     width: 100%;
-    background-size: 1000px auto;
+    background-size: 800px auto;
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(100%);
