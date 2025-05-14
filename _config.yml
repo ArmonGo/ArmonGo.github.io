@@ -1,12 +1,5 @@
-# Syntax highlighting
-markdown:                 redcarpet
-highlighter:              pygments
-
-# Permalinks
-permalink:                /:title
-relative_permalinks:      true
-
 # Setup
+permalink:                /:title
 timezone:                 'Europe/Brussels'
 locale:                   'en_us'
 title:                     'Aja''S Artwork'
