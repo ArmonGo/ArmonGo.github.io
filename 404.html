@@ -74,31 +74,32 @@
 
   <div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
 <script>
-  // Grab the header-bar once
   const headerBar = document.querySelector('.header-bar');
 
-  // Set the background‐image
+  // Only run if you actually have an image URL
   const heroUrl = headerBar.getAttribute('data-hero-bg');
-  headerBar.style.backgroundImage = `url('${heroUrl}')`;
+  if (heroUrl) {
+    // 1) Set the CSS var for the image
+    headerBar.style.setProperty('--hero-bg', `url('${heroUrl}')`);
 
-  // Shift the background vertically by whatever you passed in
-  const heroTop = headerBar.getAttribute('data-hero-top') || '0px';
-  headerBar.style.backgroundPosition = `center ${heroTop}`;
-  headerBar.style.backgroundSize = 'cover';
+    // 2) Remove the fallback color by overriding the var
+    headerBar.style.setProperty('--hero-color', 'transparent');
+  }
 
+  // (Your modal code unchanged…)
   document.querySelectorAll('.clickable').forEach(el => {
     el.addEventListener('click', () => {
-      const src = el.getAttribute('data-src');
+      const src = el.dataset.src;
       const modal = document.getElementById('imgModal');
       modal.querySelector('img').src = src;
       modal.style.display = 'flex';
     });
   });
-  document.getElementById('imgModal').addEventListener('click', e => {
-    // Close modal on any click
-    e.currentTarget.style.display = 'none';
-  });
+
+  document.getElementById('imgModal')
+    .addEventListener('click', e => e.currentTarget.style.display = 'none');
 </script>
+
 
 </body>
 </html>
