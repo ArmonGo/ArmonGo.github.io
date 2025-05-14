@@ -9,7 +9,7 @@ relative_permalinks:      true
 # Setup
 timezone:                 'Europe/Brussels'
 locale:                   'en_us'
-name:                     'Aja''S Artwork'
+title:                     'Aja''S Artwork'
 tagline:                  'Art is just meaningless'
 url:                      'https://armongo.github.io'
 rss:                      '/feed.xml'
