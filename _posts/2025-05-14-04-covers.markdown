@@ -2,18 +2,15 @@
 layout: post
 title:  "Book covers"
 date:   2025-05-13 00:00:00
-last_modified_at:  2025-05-13 00:00:00
-excerpt: "Various book cover designs"
-categories: illustration, posters
+excerpt: "Book cover designs"
 image:
   feature: seeing.png
   topPosition: -200px
-bgContrast: dark
-bgGradientOpacity: darker
-syntaxHighlighter: no
+images:
+  - src: covers/seeing.png
+    size: full
+  - src: covers/vlinders.png
+    size: full
 ---
-
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/seeing.png);"></div>
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/vlinders.png);"></div>
 
 Book covers for various illustration projects.
