@@ -57,8 +57,16 @@
 <body>
 
   
-    <div class="header-bar" data-hero-bg="/assets/images/hero/seeing.png"
-  style="top:-200px;">
+    <div
+  class="header-bar"
+  
+  style="
+    background-image: url('/assets/images/hero/seeing.png');
+    background-position: center -200px;
+    background-size: cover;
+  "
+  
+>
   <a href="/" class="back-arrow" aria-label="Back to Home">&#8592;</a>
   <h1 class="hero-title">Book covers</h1>
 </div>
@@ -102,13 +110,10 @@
 </footer>
   </div>
 
-  <!-- Modal -->
-<div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
-<script>
-  // Dynamically set hero bar background
-  const heroUrl = document.querySelector('.header-bar').getAttribute('data-hero-bg');
-  document.querySelector('.header-bar').style.setProperty('--hero-bg', `url('${heroUrl}')`);
   
+<div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
+
+<script>
   document.querySelectorAll('.clickable').forEach(el => {
     el.addEventListener('click', () => {
       const src = el.getAttribute('data-src');
