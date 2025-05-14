@@ -3,5 +3,47 @@ layout: default
 ---
 
 <article class="post-content">
+  {%- if page.images -%}
+
+  {% assign open_half = false %}
+  {% for img in page.images %}
+
+    {% if img.size == "half" %}
+
+      {% unless open_half %}
+        <div class="img-half-container">
+        {% assign open_half = true %}
+      {% endunless %}
+  
+      <div
+        class="img-half clickable"
+        data-src="{{ site.baseurl_imgp }}{{ img.src }}"
+        style="background-image:url('{{ site.baseurl_imgp }}{{ img.src }}');">
+      </div>
+  
+      {% assign next = page.images[forloop.index] %}
+      {% if forloop.last or next.size != "half" %}
+        </div>
+        {% assign open_half = false %}
+      {% endif %}
+  
+    {% else %}
+
+      {% if open_half %}
+        </div>
+        {% assign open_half = false %}
+      {% endif %}
+  
+      <div
+        class="img-full clickable"
+        data-src="{{ site.baseurl_imgp }}{{ img.src }}"
+        style="background-image:url('{{ site.baseurl_imgp }}{{ img.src }}');">
+      </div>
+
+    {% endif %}
+    
+  {% endfor %}
+  
+
   {{ content}}
 </article>
