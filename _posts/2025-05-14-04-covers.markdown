@@ -13,7 +13,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/seeing.png);"></div>
-<div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/vlinders.png);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/seeing.png);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}covers/vlinders.png);"></div>
 
 Book covers for various illustration projects.
