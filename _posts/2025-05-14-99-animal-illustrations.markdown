@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Animal illustrations for a book project"
 image:
   feature: butter.png
-  topPosition: -500px
+  topPosition: -300px
 images:
   - src: animals/butter.png
     size: full
