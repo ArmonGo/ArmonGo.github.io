@@ -5,13 +5,13 @@
 
 <body>
 
-  {% if page.url == '/index.html' %}
+  {% if page.url == '/' %}
     {% include header-front.html %}
   {% else %}
     {% include header-post.html %}
   {% endif %}
 
-  <div class="container {% if page.url != '/index.html' %}container-under-hero{% endif %}">
+  <div class="container {% if page.url != '/' %}container-under-hero{% endif %}">
     {{ content }}
     {% include footer.html %}
   </div>
