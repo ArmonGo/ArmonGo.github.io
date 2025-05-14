@@ -4,8 +4,8 @@ title:  "Sketches"
 date:   2025-05-13 00:00:00
 excerpt: "Quick sketches of various people"
 image:
-  feature: old.png
-  topPosition: -500px
+  feature: kid.png
+  topPosition: -300px
 images:
   - src: sketches/man.png
     size: half
