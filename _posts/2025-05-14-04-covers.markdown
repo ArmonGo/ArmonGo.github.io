@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Book cover designs"
 image:
   feature: seeing.png
-  topPosition: -200px
+  hero_top_position: -200px
 images:
   - src: covers/seeing.png
     size: full

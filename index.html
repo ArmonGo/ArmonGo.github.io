@@ -7,7 +7,11 @@ title: Home
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="post-link">
     <div class="post {% if forloop.index > 1 %}bg-white shadow{% endif %}">
-      <div class="image" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_hero }}');"></div>
+      <div class="image" style="
+        background-image: url('{{ post.image.feature | prepend: site.baseurl_hero }}');
+        {% if post.image.home_top_position %}background-position: center {{ post.image.home_top_position }};{% endif %}
+        {% if post.image.home_width %}background-size: {{ post.image.home_width }};{% endif %}
+      "></div>
       <h2 class="title {% if forloop.index == 1 %}hide-title{% endif %}">{{ post.title }}</h2>
     </div>
   </a>

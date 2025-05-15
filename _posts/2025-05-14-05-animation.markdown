@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Various comic animations"
 image:
   feature: animation.png
-  topPosition: -200px
+  hero_top_position: -200px
 ---
 
 <video width="100%" height="480" controls>

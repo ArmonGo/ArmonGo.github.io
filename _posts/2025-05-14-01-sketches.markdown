@@ -5,7 +5,9 @@ date:   2025-05-13 00:00:00
 excerpt: "Quick sketches of various people"
 image:
   feature: kid.png
-  topPosition: -300px
+  hero_top_position: -300px
+  home_top_position: -10px
+  home_width: 200px
 images:
   - src: sketches/man.png
     size: half

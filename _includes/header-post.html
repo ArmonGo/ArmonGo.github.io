@@ -1,7 +1,7 @@
 <div
   class="header-bar"
   {% if page.image.feature %}data-hero-bg="{{ page.image.feature | prepend: site.baseurl_hero }}"{% endif %}
-  {% if page.image.topPosition %}data-hero-top="{{ page.image.topPosition }}"{% endif %}
+  {% if page.image.hero_top_position %}data-hero-top="{{ page.image.hero_top_position }}"{% endif %}
 >
   <a href="{{ site.baseurl }}" class="back-arrow" aria-label="Back to Home">&#8592;</a>
   <h1 class="hero-title">{{ page.title }}</h1>

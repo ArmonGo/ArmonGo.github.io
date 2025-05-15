@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Poster illustrations"
 image:
   feature: poster.png
-  topPosition: -100px
+  hero_top_position: -100px
 images:
   - src: posters/dag1.png
     size: half

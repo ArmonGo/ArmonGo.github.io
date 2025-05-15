@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Charcoal postcard designs"
 image:
   feature: mirror.png
-  topPosition: -500px
+  hero_top_position: -500px
 images:
   - src: postcards/falling.png
     size: full
