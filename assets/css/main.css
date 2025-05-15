@@ -222,6 +222,10 @@ header .tagline {
 
 /* Responsive: single column */
 @media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
     .posts {
         grid-template-columns: 1fr;
     }
