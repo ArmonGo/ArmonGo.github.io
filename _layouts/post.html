@@ -16,7 +16,7 @@ layout: default
       {% endunless %}
   
       <div
-        class="img-half clickable"
+        class="img-half clickable img-post-{{forloop.index}}"
         data-src="{{ site.baseurl_imgp }}{{ img.src }}"
         style="background-image:url('{{ site.baseurl_imgp }}{{ img.src }}');">
       </div>
@@ -35,7 +35,7 @@ layout: default
       {% endif %}
   
       <div
-        class="img-full clickable"
+        class="img-full clickable img-post-{{forloop.index}}"
         data-src="{{ site.baseurl_imgp }}{{ img.src }}"
         style="background-image:url('{{ site.baseurl_imgp }}{{ img.src }}');">
       </div>
