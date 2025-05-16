@@ -9,17 +9,17 @@ image:
 ---
 
 <video width="100%" height="480" controls>
-  <source src="{{ site.baseurl_posts_img }}animation/diary.mp4" type="video/mp4">
+  <source src="{{ site.baseurl_img }}animation/diary.mp4" type="video/mp4">
   Yikes, your browser can't play this video.
 </video>
 
 <video width="100%" height="480" controls>
-  <source src="{{ site.baseurl_posts_img }}animation/nature.mp4" type="video/mp4">
+  <source src="{{ site.baseurl_img }}animation/nature.mp4" type="video/mp4">
   Sorry, your browser can't play this video.
 </video>
 
 <video width="100%" height="480" controls>
-  <source src="{{ site.baseurl_posts_img }}animation/nono.mp4" type="video/mp4">
+  <source src="{{ site.baseurl_img }}animation/nono.mp4" type="video/mp4">
   Sorry, your browser can't play this video.
 </video>
 
