@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Oil Pastel"
+date:   2025-05-17 00:00:00
+excerpt: "Oil pastel paintings"
+image:
+  feature: redflower.jpeg
+  hero_top_position: -500px
+images:
+  - src: oilpastel/child.jpeg
+    size: full
+  - src: oilpastel/flower.jpeg
+    size: full
+  - src: oilpastel/redflower.jpeg
+    size: full
+  - src: oilpastel/flowercolor.jpeg
+    size: full
+  - src: oilpastel/pinkflower.jpeg
+    size: full
+  - src: oilpastel/riverboat.jpeg
+    size: full
+  - src: oilpastel/sunflower.jpeg
+    size: full
+  - src: oilpastel/vangohn.jpeg
+    size: full
+---
+
+A couple of oil pastel paintings. 
