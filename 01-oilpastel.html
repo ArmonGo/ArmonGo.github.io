@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Oil pastel paintings">
+  <link rel="canonical" href="https://armongo.github.io/01-oilpastel">
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oil Pastel">
+  <meta name="twitter:description" content="Oil pastel paintings">
+  <meta name="twitter:image" content="https://armongo.github.io/assets/images/hero/redflower.jpeg">
+  <meta name="twitter:url" content="https://armongo.github.io/01-oilpastel">
+  <!-- Open graph -->
+  <meta property="og:title" content="Oil Pastel">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://armongo.github.io/01-oilpastel">
+  <meta property="og:image" content="https://armongo.github.io/assets/images/hero/redflower.jpeg">
+  <meta property="og:description" content="Oil pastel paintings">
+  <meta property="og:site_name" content="Aja'S Artwork">
+  <meta property="og:locale" content="en_us">
+  
+    <meta property="article:published_time" content="2025-05-17T02:00:00+02:00">
+  
+
+  
+    
+  
+  
+  
+    
+  
+
+  <title>
+    
+      Oil Pastel &middot; Aja'S Artwork
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Righteous&display=swap&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  
+    <div
+  class="header-bar"
+  data-hero-bg="/assets/images/hero/redflower.jpeg"
+  data-hero-top="-500px"
+>
+  <a href="/" class="back-arrow" aria-label="Back to Home">&#8592;</a>
+  <h1 class="hero-title">Oil Pastel</h1>
+</div>
+  
+
+  <div class="container container-under-hero">
+    <article class="post-content">
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-1"
+        data-src="/assets/images/posts/oilpastel/child.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/child.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-2"
+        data-src="/assets/images/posts/oilpastel/flower.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/flower.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-3"
+        data-src="/assets/images/posts/oilpastel/redflower.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/redflower.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-4"
+        data-src="/assets/images/posts/oilpastel/flowercolor.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/flowercolor.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-5"
+        data-src="/assets/images/posts/oilpastel/pinkflower.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/pinkflower.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-6"
+        data-src="/assets/images/posts/oilpastel/riverboat.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/riverboat.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-7"
+        data-src="/assets/images/posts/oilpastel/sunflower.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/sunflower.jpeg');">
+      </div>
+
+    
+
+  
+
+    
+
+      
+  
+      <div
+        class="img-full clickable img-post-8"
+        data-src="/assets/images/posts/oilpastel/vangohn.jpeg"
+        style="background-image:url('/assets/images/posts/oilpastel/vangohn.jpeg');">
+      </div>
+
+    
+
+  <p>A couple of oil pastel paintings.</p>
+
+</article>
+    <footer>
+    <p>&copy; 2025 by <a href="/about/">Armon</a>.</p>
+</footer>
+  </div>
+
+  <div class="modal" id="imgModal"><img src="" alt="Full Image" /></div>
+<script>
+  const headerBar = document.querySelector('.header-bar');
+
+  // Only run if you actually have an image URL
+  const heroUrl = headerBar.getAttribute('data-hero-bg');
+  if (heroUrl) {
+    // 1) Set the CSS var for the image
+    headerBar.style.setProperty('--hero-bg', `url('${heroUrl}')`);
+
+    // 2) Remove the fallback color by overriding the var
+    headerBar.style.setProperty('--hero-color', 'transparent');
+  }
+
+  // (Your modal code unchanged…)
+  document.querySelectorAll('.clickable').forEach(el => {
+    el.addEventListener('click', () => {
+      const src = el.dataset.src;
+      const modal = document.getElementById('imgModal');
+      modal.querySelector('img').src = src;
+      modal.style.display = 'flex';
+    });
+  });
+
+  document.getElementById('imgModal')
+    .addEventListener('click', e => e.currentTarget.style.display = 'none');
+</script>
+
+
+</body>
+</html>
