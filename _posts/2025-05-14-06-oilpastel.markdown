@@ -5,7 +5,7 @@ date:   2025-05-17 00:00:00
 excerpt: "Oil pastel paintings"
 image:
   feature: redflower.jpeg
-  hero_top_position: -500px
+  hero_top_position: 0px
 images:
   - src: oilpastel/child.jpeg
     size: full
