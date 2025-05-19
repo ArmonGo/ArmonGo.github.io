@@ -7,22 +7,24 @@ image:
   feature: redflower.jpeg
   hero_top_position: 0px
 images:
-  - src: oilpastel/child.jpeg
-    size: full
   - src: oilpastel/flower.jpeg
     size: full
   - src: oilpastel/redflower.jpeg
     size: full
+  - src: oilpastel/sunflower2.jpeg
+    size: half
+  - src: oilpastel/child.jpeg
+    size: half
   - src: oilpastel/flowercolor.jpeg
-    size: full
+    size: half
   - src: oilpastel/pinkflower.jpeg
-    size: full
+    size: half
   - src: oilpastel/riverboat.jpeg
-    size: full
+    size: half
   - src: oilpastel/sunflower.jpeg
-    size: full
+    size: half
   - src: oilpastel/vangohn.jpeg
-    size: full
+    size: half
 ---
 
 A couple of oil pastel paintings. 
