@@ -13,41 +13,30 @@
 					<description>Oil pastel paintings</description>
 				
 				<pubDate>Sat, 17 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/06-oilpastel</link>
-				<guid isPermaLink="true">https://armongo.github.io/06-oilpastel</guid>
+				<link>https://armongo.github.io/01-oilpastel</link>
+				<guid isPermaLink="true">https://armongo.github.io/01-oilpastel</guid>
 			</item>
 		
 			<item>
-				<title>Animals</title>
+				<title>Comic animations</title>
 				
 				
-					<description>Animal illustrations for a book project</description>
+					<description>Various comic animations</description>
 				
 				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/99-animal-illustrations</link>
-				<guid isPermaLink="true">https://armongo.github.io/99-animal-illustrations</guid>
+				<link>https://armongo.github.io/06-animation</link>
+				<guid isPermaLink="true">https://armongo.github.io/06-animation</guid>
 			</item>
 		
 			<item>
-				<title>Posters</title>
+				<title>Sketches</title>
 				
 				
-					<description>Poster illustrations</description>
-				
-				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/40-posters</link>
-				<guid isPermaLink="true">https://armongo.github.io/40-posters</guid>
-			</item>
-		
-			<item>
-				<title>Postcards</title>
-				
-				
-					<description>Charcoal postcard designs</description>
+					<description>Quick sketches of various people</description>
 				
 				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/05-postcards</link>
-				<guid isPermaLink="true">https://armongo.github.io/05-postcards</guid>
+				<link>https://armongo.github.io/05-sketches</link>
+				<guid isPermaLink="true">https://armongo.github.io/05-sketches</guid>
 			</item>
 		
 			<item>
@@ -62,25 +51,36 @@
 			</item>
 		
 			<item>
-				<title>Comic animations</title>
+				<title>Postcards</title>
 				
 				
-					<description>Various comic animations</description>
+					<description>Charcoal postcard designs</description>
 				
 				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/02-animation</link>
-				<guid isPermaLink="true">https://armongo.github.io/02-animation</guid>
+				<link>https://armongo.github.io/03-postcards</link>
+				<guid isPermaLink="true">https://armongo.github.io/03-postcards</guid>
 			</item>
 		
 			<item>
-				<title>Sketches</title>
+				<title>Posters</title>
 				
 				
-					<description>Quick sketches of various people</description>
+					<description>Poster illustrations</description>
 				
 				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
-				<link>https://armongo.github.io/01-sketches</link>
-				<guid isPermaLink="true">https://armongo.github.io/01-sketches</guid>
+				<link>https://armongo.github.io/02-posters</link>
+				<guid isPermaLink="true">https://armongo.github.io/02-posters</guid>
+			</item>
+		
+			<item>
+				<title>Animals</title>
+				
+				
+					<description>Animal illustrations for a book project</description>
+				
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
+				<link>https://armongo.github.io/00-animal-illustrations</link>
+				<guid isPermaLink="true">https://armongo.github.io/00-animal-illustrations</guid>
 			</item>
 		
 	</channel>
