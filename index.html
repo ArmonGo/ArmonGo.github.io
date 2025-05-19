@@ -3,8 +3,10 @@ layout: default
 title: Home
 ---
 
+{% assign posts_by_sequence = site.posts | sort: "slug" %}
+
 <section class="posts">
-  {% for post in site.posts %}
+  {% for post in posts_by_sequence %}
   <a href="{{ post.url }}" class="post-link">
     <div class="post {% if forloop.index > 1 %}bg-white shadow{% endif %}">
       <div class="image img-front-{{forloop.index}}" style="
