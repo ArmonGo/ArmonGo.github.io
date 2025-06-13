@@ -17,14 +17,13 @@ images:
     size: full
 ---
 
-**Procreate; Postcard; Charcoal**<br><br>
+A couple of charcoal-drawn postcards about topics that are close to me.
 
-A couple of charcoal-drawn postcards on topics that are close to me.
+Started with the concept of trapping yourself inside a glass bottle: you can see the world outside, but you can’t break free.
 
-It all started with the concept of trapping yourself inside a glass bottle — you can see the world outside, but you can’t break free.
+I wrote a story about it; below are just a few paragraphs.
 
-I wrote another story about it; here are just a few paragraphs.<br><br>
-
+---
 
 _Thump, thump... Someone knocked heavily on my glass enclosure, yanking my curled-up consciousness out of sleep._
 
@@ -61,3 +60,7 @@ _I stay in my bottle, day after day. I am neither bored nor resentful._
 _I just—_
 
 _I just want to dream._
+
+---
+
+Tools: Procreate, postcards, charcoal.
