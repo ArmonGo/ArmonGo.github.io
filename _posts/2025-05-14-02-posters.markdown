@@ -15,4 +15,8 @@ images:
     size: half
 ---
 
-Posters designed by me for various events. Made using Adobe Illustrator.
+Part of art class is to design various posters. A challenge for my, as illustration work has a lot to do with ratio's and alignment and white space. Made for various events.
+
+---
+
+Tools: Adobe Illustrator.
