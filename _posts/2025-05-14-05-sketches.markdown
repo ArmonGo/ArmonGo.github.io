@@ -21,4 +21,8 @@ images:
     size: half
 ---
 
-Some quick sketches of various people. Drawn using Procreate and an iPad Pro.
+Some very quick sketches of various people. Speedrunning my art.
+
+---
+
+Tools: Procreate.
