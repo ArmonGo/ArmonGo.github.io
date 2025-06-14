@@ -4,10 +4,10 @@ title:  "Book covers"
 date:   2025-05-13 00:00:00
 excerpt: "Book cover designs"
 image:
-  feature: seeing.png
+  feature: cover_ways_of_seeing.jpg
   hero_top_position: -200px
 images:
-  - src: covers/seeing.png
+  - src: covers/cover_ways_of_seeing.jpg
     size: full
   - src: covers/vlinders.png
     size: full
