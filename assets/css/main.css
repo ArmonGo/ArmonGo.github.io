@@ -238,7 +238,7 @@ footer a:active {
 
 /* Post content */
 .post-content {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 40px auto;
 }
 
@@ -317,7 +317,7 @@ footer a:active {
 
 .img-half {
     width: 100%;
-    height: 540px;
+    height: 260px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
