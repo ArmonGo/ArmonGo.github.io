@@ -130,7 +130,6 @@ image:
   .muted { color: var(--muted); font-size: 0.9rem; }
 </style>
 
-
 <div class="wrap">
   <header>
     <div>
