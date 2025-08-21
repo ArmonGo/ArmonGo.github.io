@@ -42,7 +42,7 @@ image:
     padding: 0 24px;
   }
 
-  header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -125,19 +125,19 @@ image:
     background-position: 0 0, 0 10px, 10px -10px, -10px 0;
   }
 
-  footer { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .footer { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
   .muted { color: var(--muted); font-size: 0.9rem; }
 </style>
 
 <div id="wrapper">
 
 <div class="wrap">
-  <header>
+  <div class="header">
     <div>
       <h1>Animal Vision Filters</h1>
       <div class="sub">See the world through their eyes</div>
     </div>
-  </header>
+  </div>
 
   <div class="controls">
     <label class="file" title="Choose an image">
@@ -180,9 +180,9 @@ image:
     </figure>
   </div>
 
-  <footer>
+  <div class="footer">
     <div class="muted">Tip: try different filters and compare side by side.</div>
-  </footer>
+  </div>
 </div>
 
 </div>
