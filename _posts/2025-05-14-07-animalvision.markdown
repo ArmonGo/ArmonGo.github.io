@@ -27,9 +27,8 @@ image:
     }
   }
 
-  * { box-sizing: border-box; }
-  html, body { height: 100%; }
-  body {
+  #wrapper { height: 100%; }
+  #wrapper {
     margin: 0; 
     background: var(--bg);
     color: var(--fg);
@@ -130,6 +129,8 @@ image:
   .muted { color: var(--muted); font-size: 0.9rem; }
 </style>
 
+<div id="wrapper">
+
 <div class="wrap">
   <header>
     <div>
@@ -182,6 +183,8 @@ image:
   <footer>
     <div class="muted">Tip: try different filters and compare side by side.</div>
   </footer>
+</div>
+
 </div>
 
 <script>
