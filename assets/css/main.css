@@ -24,7 +24,6 @@ body::before {
     /* define defaults for our vars */
     --hero-color: #000;
     --hero-bg: none;
-
     position: relative;
     width: 100%;
     height: 300px;
@@ -238,7 +237,7 @@ footer a:active {
 
 /* Post content */
 .post-content {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 40px auto;
 }
 
@@ -317,7 +316,7 @@ footer a:active {
 
 .img-half {
     width: 100%;
-    height: 260px;
+    height: 540px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
