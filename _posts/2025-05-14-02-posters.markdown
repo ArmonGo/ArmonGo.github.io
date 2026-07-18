@@ -13,6 +13,8 @@ images:
     size: half
   - src: posters/jelly.jpg
     size: half
+  - src: posters/theater_poster_white.png
+    size: half
 ---
 
 Part of art class is to design various posters. A challenge for my, as illustration work has a lot to do with ratio's and alignment and white space. Made for various events.
