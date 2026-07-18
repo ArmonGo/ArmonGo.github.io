@@ -17,6 +17,10 @@ images:
     size: half
   - src: animals/lantarn.png
     size: half
+  - src: animals/insects.jpg
+    size: half
+  - src: animals/insects2.jpg
+    size: half
 ---
 
 This project was initially the result of me working on a book for my illustration class. Also see elsewhere on my site.
