@@ -7,17 +7,6 @@
 		<atom:link href="https://armongo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title></title>
-				
-				
-					<description></description>
-				
-				<pubDate>Sat, 18 Jul 2026 21:09:09 +0200</pubDate>
-				<link>https://armongo.github.io/2025-05-14-03-postcards</link>
-				<guid isPermaLink="true">https://armongo.github.io/2025-05-14-03-postcards</guid>
-			</item>
-		
-			<item>
 				<title>Animal vision</title>
 				
 				
@@ -70,6 +59,17 @@
 				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
 				<link>https://armongo.github.io/04-covers</link>
 				<guid isPermaLink="true">https://armongo.github.io/04-covers</guid>
+			</item>
+		
+			<item>
+				<title>Postcards</title>
+				
+				
+					<description>Postcard designs</description>
+				
+				<pubDate>Tue, 13 May 2025 02:00:00 +0200</pubDate>
+				<link>https://armongo.github.io/03-postcards</link>
+				<guid isPermaLink="true">https://armongo.github.io/03-postcards</guid>
 			</item>
 		
 			<item>
