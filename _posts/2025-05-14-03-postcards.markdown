@@ -2,11 +2,17 @@
 layout: post
 title:  "Postcards"
 date:   2025-05-13 00:00:00
-excerpt: "Charcoal postcard designs"
+excerpt: "Postcard designs"
 image:
-  feature: mirror.png
+  feature: hat.png
   hero_top_position: -500px
 images:
+ - src: postcards/hat.jpg
+    size: full
+  - src: postcards/ball.jpg
+    size: full
+  - src: postcards/dress.jpg
+    size: full
   - src: postcards/falling.png
     size: full
   - src: postcards/glass.png
