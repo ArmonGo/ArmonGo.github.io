@@ -4,10 +4,10 @@ title:  "Postcards"
 date:   2025-05-13 00:00:00
 excerpt: "Postcard designs"
 image:
-  feature: hat.png
+  feature: hat.jpg
   hero_top_position: -500px
 images:
- - src: postcards/hat.jpg
+  - src: postcards/hat.jpg
     size: full
   - src: postcards/ball.jpg
     size: full
