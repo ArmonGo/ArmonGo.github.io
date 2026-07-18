@@ -11,6 +11,8 @@ images:
     size: full
   - src: covers/vlinders.png
     size: full
+  - src: covers/bookcover.jpeg
+    size: full
 ---
 
 Book covers for various projects.
