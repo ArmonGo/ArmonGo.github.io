@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Posters"
+title:  "Clay & Figurine"
 date:   2025-05-13 00:00:00
 excerpt: "Clay & 3D printed figurine"
 image:
@@ -16,9 +16,9 @@ images:
   - src: posters/onion.jpeg
     size: full
 ---
-
-Part of art class is to design various posters. A challenge for my, as illustration work has a lot to do with ratio's and alignment and white space. Made for various events.
+They are made from two different materials. One is clay colored by water color, and one is printed by 3d printer, and then manually color it with markers. 
 
 ---
 
-Tools: Adobe Illustrator.
+Tools: Fast-dry clay, water color, markers, 3D printer, soft pastels.
+
