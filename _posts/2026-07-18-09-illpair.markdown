@@ -7,21 +7,21 @@ image:
   feature: Cover.png
   hero_top_position: -100px
 images:
-  - src: posters/Cover.png
+  - src: illpair/Cover.png
     size: half
-  - src: posters/CoverCouple.png
+  - src: illpair/CoverCouple.png
     size: half
-  - src: posters/DesignerBag.png
+  - src: illpair/DesignerBag.png
     size: half
-  - src: posters/FamilyAlbum.png
+  - src: illpair/FamilyAlbum.png
     size: half
-  - src: posters/FamilyAlbum.png
+  - src: illpair/FamilyAlbum.png
     size: half
-  - src: posters/FavouriteSportJersey.png
+  - src: illpair/FavouriteSportJersey.png
     size: half
-  - src: posters/Friends.png
+  - src: illpair/Friends.png
     size: half
-  - src: posters/JewelerBox.png
+  - src: illpair/JewelerBox.png
     size: half
 ---
 A board game for testing intimicy. We have designed multiple items cards and questions cards, and even print the real cards for playing. 
