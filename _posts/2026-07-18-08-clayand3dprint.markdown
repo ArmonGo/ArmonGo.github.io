@@ -7,7 +7,7 @@ image:
   feature: fries.jpeg
   hero_top_position: -400px
 images:
-  - src: posters/fries.jpeg
+  - src: clay_3dPrint/fries.jpeg
     size: full
   - src: clay_3dPrint/cryingcandle.jpeg
     size: full
