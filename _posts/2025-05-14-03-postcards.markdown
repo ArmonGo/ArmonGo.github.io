@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Postcard designs"
 image:
   feature: hat.jpg
-  hero_top_position: -100px
+  hero_top_position: -80px
 images:
   - src: postcards/hat.jpg
     size: full
