@@ -5,7 +5,7 @@ date:   2025-05-13 00:00:00
 excerpt: "Clay & 3D printed figurine"
 image:
   feature: fries.jpeg
-  hero_top_position: -100px
+  hero_top_position: -300px
 images:
   - src: posters/fries.jpeg
     size: full
