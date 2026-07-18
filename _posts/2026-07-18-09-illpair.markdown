@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Illpair Game card"
+date:   2025-05-13 00:00:00
+excerpt: "Card game design for relationship testing"
+image:
+  feature: Cover.png
+  hero_top_position: -100px
+images:
+  - src: posters/Cover.png
+    size: half
+  - src: posters/CoverCouple.png
+    size: half
+  - src: posters/DesignerBag.png
+    size: half
+  - src: posters/FamilyAlbum.png
+    size: half
+  - src: posters/FamilyAlbum.png
+    size: half
+  - src: posters/FavouriteSportJersey.png
+    size: half
+  - src: posters/Friends.png
+    size: half
+  - src: posters/JewelerBox.png
+    size: half
+---
+A board game for testing intimicy. We have designed multiple items cards and questions cards, and even print the real cards for playing. 
+
+---
+
+Tools: Adobe Illustrator. Procreate
