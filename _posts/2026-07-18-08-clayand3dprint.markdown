@@ -5,15 +5,15 @@ date:   2025-05-13 00:00:00
 excerpt: "Clay & 3D printed figurine"
 image:
   feature: fries.jpeg
-  hero_top_position: -300px
+  hero_top_position: -400px
 images:
   - src: posters/fries.jpeg
     size: full
-  - src: posters/cryingcandle.jpeg
+  - src: clay_3dPrint/cryingcandle.jpeg
     size: full
-  - src: posters/circles.jpeg
+  - src: clay_3dPrint/circles.jpeg
     size: full
-  - src: posters/onion.jpeg
+  - src: clay_3dPrint/onion.jpeg
     size: full
 ---
 They are made from two different materials. One is clay colored by water color, and one is printed by 3d printer, and then manually color it with markers. 
