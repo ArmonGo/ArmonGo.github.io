@@ -23,9 +23,7 @@ images:
     size: half
 ---
 
-This project was initially the result of me working on a book for my illustration class. Also see elsewhere on my site.
-
-I ended up so involved in drawing that I kept going.
+This project began as a book assignment for my illustration class. I got so caught up in drawing the animals that I just kept going.
 
 ---
 

@@ -15,8 +15,8 @@ images:
     size: full
 ---
 
-Book covers for various projects.
+Book covers designed for various projects.
 
 ---
 
-Tools: Procreate. Photoshop. Illustrator.
+Tools: Procreate, Photoshop, Illustrator.

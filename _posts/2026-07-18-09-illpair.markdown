@@ -15,8 +15,6 @@ images:
     size: half
   - src: illpair/FamilyAlbum.png
     size: half
-  - src: illpair/FamilyAlbum.png
-    size: half
   - src: illpair/FavouriteSportJersey.png
     size: half
   - src: illpair/Friends.png
@@ -25,10 +23,10 @@ images:
     size: half
 ---
 
-A board game for testing intimacy.
+A card game about testing intimacy.
 
-We have designed multiple items cards and questions cards, and printed the cards for playing. 
+We designed item cards and question cards, illustrated them, and printed a playable prototype.
 
 ---
 
-Tools: Adobe Illustrator. Procreate
+Tools: Adobe Illustrator, Procreate.

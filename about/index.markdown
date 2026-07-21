@@ -18,8 +18,11 @@ I'm constantly distracted by new, fancy techniques.
 I'm also too impatient to focus on the basics of figure drawing and sketching.
 That’s why most of my figures end up in strange poses and proportions.
 
-Could I do better? Where would I end up?
+Could I do better?
+Where will I end up?
 I have no idea.
 
-But curiosity is my motivation.
-I just hope I never lose it. :)
+Curiosity is my motivation.
+I just hope I never lose it.
+
+You can contact me [here]({{ site.baseurl }}contact/).

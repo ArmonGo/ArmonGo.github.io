@@ -420,3 +420,9 @@ function applyFilter() {
 
 document.getElementById('applyBtn').addEventListener('click', applyFilter);
 </script>
+
+---
+
+Ever wondered how other animals see the world? Upload an image, pick a filter, and look through their eyes.
+
+Tools: HTML, CSS, JavaScript (canvas).

@@ -24,9 +24,9 @@ images:
     size: full
 ---
 
-A couple of charcoal-drawn postcards about topics that are close to me.
+A series of charcoal-drawn postcards about themes close to me.
 
-Started with the concept of trapping yourself inside a glass bottle: you can see the world outside, but you can’t break free.
+It started with the idea of trapping yourself inside a glass bottle: you can see the world outside, but you can't break free.
 
 I wrote a story about it; below are just a few paragraphs.
 
@@ -70,4 +70,4 @@ _I just want to dream._
 
 ---
 
-Tools: Procreate, postcards, charcoal.
+Tools: Charcoal, Procreate, postcard paper.

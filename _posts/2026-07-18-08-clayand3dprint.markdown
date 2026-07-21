@@ -18,9 +18,9 @@ images:
     size: full
 ---
 
-Made from two different materials. One is clay colored by water color, and one is printed by 3d printer, and then manually colored with markers. 
+Figurines made two ways: some sculpted from fast-dry clay and colored with watercolor, others 3D printed and hand-colored with markers.
 
 ---
 
-Tools: Fast-dry clay, water color, markers, 3D printer, soft pastels.
+Tools: Fast-dry clay, watercolor, markers, 3D printer, soft pastels.
 

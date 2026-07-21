@@ -17,7 +17,7 @@ images:
     size: half
 ---
 
-Part of art class is to design various posters. A challenge for my, as illustration work has a lot to do with ratio's and alignment and white space. Made for various events.
+Poster designs for various events, made as part of my art class. A fun challenge — illustration work has a lot to do with ratios, alignment, and white space.
 
 ---
 
