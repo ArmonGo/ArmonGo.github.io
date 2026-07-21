@@ -149,6 +149,11 @@ header .tagline {
     column-span: all;
 }
 
+.post-link:first-child .image {
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* Post card */
 .post {
     display: flex;
