@@ -2,9 +2,9 @@
 layout: post
 title:  "Illpair Game card"
 date:   2025-05-13 00:00:00
-excerpt: "Card game design for relationship testing"
+excerpt: "Card game prototype for relationship testing"
 image:
-  feature: Cover.png
+  feature: CoverCouple.png
   hero_top_position: -100px
 images:
   - src: illpair/Cover.png
@@ -24,7 +24,10 @@ images:
   - src: illpair/JewelerBox.png
     size: half
 ---
-A board game for testing intimicy. We have designed multiple items cards and questions cards, and even print the real cards for playing. 
+
+A board game for testing intimacy.
+
+We have designed multiple items cards and questions cards, and printed the cards for playing. 
 
 ---
 

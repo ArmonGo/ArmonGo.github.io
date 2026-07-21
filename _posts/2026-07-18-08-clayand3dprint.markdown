@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Clay & Figurine"
+title:  "Clay & Figurines"
 date:   2025-05-13 00:00:00
-excerpt: "Clay & 3D printed figurine"
+excerpt: "Clay & 3D printed figurines"
 image:
   feature: fries.jpeg
   hero_top_position: -400px
+  home_width: 200px
 images:
   - src: clay_3dPrint/fries.jpeg
     size: full
@@ -16,7 +17,8 @@ images:
   - src: clay_3dPrint/onion.jpeg
     size: full
 ---
-They are made from two different materials. One is clay colored by water color, and one is printed by 3d printer, and then manually color it with markers. 
+
+Made from two different materials. One is clay colored by water color, and one is printed by 3d printer, and then manually colored with markers. 
 
 ---
 

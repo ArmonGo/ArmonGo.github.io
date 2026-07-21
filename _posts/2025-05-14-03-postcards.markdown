@@ -6,6 +6,7 @@ excerpt: "Postcard designs"
 image:
   feature: hat.jpg
   hero_top_position: -80px
+  home_width: 200px
 images:
   - src: postcards/hat.jpg
     size: full
