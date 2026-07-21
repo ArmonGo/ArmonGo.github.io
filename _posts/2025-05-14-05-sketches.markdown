@@ -7,7 +7,7 @@ image:
   feature: kid.png
   hero_top_position: -300px
   home_top_position: -10px
-  home_width: 200px
+  home_width: 400px
 images:
   - src: sketches/man.png
     size: half

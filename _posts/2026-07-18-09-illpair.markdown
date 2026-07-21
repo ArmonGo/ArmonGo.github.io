@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Illpair Game card"
+title:  "Illpair Card Game"
 date:   2025-05-13 00:00:00
 excerpt: "Card game prototype for relationship testing"
 image:
-  feature: CoverCouple.png
+  feature: Cover.png
   hero_top_position: -100px
 images:
   - src: illpair/Cover.png
