@@ -129,6 +129,10 @@ header .tagline {
     color: #555;
 }
 
+header .tagline a {
+    color: inherit;
+}
+
 /* Posts masonry collage */
 .posts {
     column-count: 3;
