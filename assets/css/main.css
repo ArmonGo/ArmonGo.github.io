@@ -149,11 +149,6 @@ header .tagline {
     column-span: all;
 }
 
-.post-link:first-child .image {
-    max-height: 700px;
-    object-fit: cover;
-}
-
 /* Post card */
 .post {
     display: flex;
