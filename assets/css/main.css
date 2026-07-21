@@ -129,11 +129,10 @@ header .tagline {
     color: #555;
 }
 
-/* Posts grid */
+/* Posts masonry collage */
 .posts {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 60px 20px;
+    column-count: 3;
+    column-gap: 20px;
 }
 
 /* Post link wrapper */
@@ -141,6 +140,18 @@ header .tagline {
     display: block;
     text-decoration: none;
     color: inherit;
+    break-inside: avoid;
+    margin-bottom: 60px;
+}
+
+/* First post spans the full width as a hero */
+.post-link:first-child {
+    column-span: all;
+}
+
+.post-link:first-child .image {
+    max-height: 700px;
+    object-fit: cover;
 }
 
 /* Post card */
@@ -165,10 +176,9 @@ header .tagline {
 
 /* Post image styling */
 .post .image {
+    display: block;
     width: 100%;
-    background-size: 900px auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: auto;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
 }
@@ -191,32 +201,7 @@ header .tagline {
     display: none;
 }
 
-/* Grid placements */
-.post-link:nth-child(1) {
-    grid-column: 1 / -1;
-}
-
-.post-link:nth-child(1) .image {
-    height: 700px;
-}
-
-.post-link:nth-child(2),
-.post-link:nth-child(3) {
-    grid-column: span 6;
-}
-
-.post-link:nth-child(2) .image,
-.post-link:nth-child(3) .image {
-    height: 400px;
-}
-
-.post-link:nth-child(n+4) {
-    grid-column: span 3;
-}
-
-.post-link:nth-child(n+4) .image {
-    height: 300px;
-}
+/* Grid placements removed: masonry layout adapts to natural image heights */
 
 footer {
     text-align: center;
@@ -355,21 +340,13 @@ footer a:active {
     }
 
     .posts {
-        grid-template-columns: 1fr;
-    }
-
-    .post-link {
-        grid-column: auto !important;
+        column-count: 1;
     }
 
     .logo {
         width: 100px;
     }
 
-    .post-link .image {
-        height: 250px !important;
-    }
-    
     .img-half-container {
         grid-template-columns: 1fr;
     }
