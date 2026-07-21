@@ -4,7 +4,7 @@ title:  "Book Covers"
 date:   2025-05-13 00:00:00
 excerpt: "Book cover designs"
 image:
-  feature: cover_ways_of_seeing.jpg
+  feature: covers/cover_ways_of_seeing.jpg
   hero_top_position: -200px
 images:
   - src: covers/cover_ways_of_seeing.jpg

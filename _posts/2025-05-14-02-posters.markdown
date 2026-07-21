@@ -4,7 +4,7 @@ title:  "Posters"
 date:   2025-05-13 00:00:00
 excerpt: "Poster illustrations"
 image:
-  feature: poster.png
+  feature: posters/dag1.png
   hero_top_position: -100px
 images:
   - src: posters/dag1.png

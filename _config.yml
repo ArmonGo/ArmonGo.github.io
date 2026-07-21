@@ -8,9 +8,8 @@ url:                      'https://armongo.github.io'
 rss:                      '/feed.xml'
 baseurl:                  '/'
 baseurl_img:              '/assets/images/'
-baseurl_imgp:             '/assets/images/posts/'
-baseurl_hero:             '/assets/images/hero/'
-description:              'Aja''S Atwork: art is just meaningless'
+baseurl_imgp:             '/assets/images/'
+description:              'Aja''S Artwork: art is just meaningless'
 
 author:
   name:                   'Armon'

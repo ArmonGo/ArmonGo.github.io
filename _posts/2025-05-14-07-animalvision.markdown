@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Animal vision"
+title:  "Animal Vision"
 date:   2025-08-21 00:00:00
 excerpt: "Look through the eyes of various animals"
 image:
-  feature: vision.jpg
+  feature: animalvision/vision.jpg
   hero_top_position: -200px
 ---
 

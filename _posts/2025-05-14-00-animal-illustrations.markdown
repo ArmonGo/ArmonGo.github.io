@@ -4,7 +4,7 @@ title:  "Animals"
 date:   2025-05-13 00:00:00
 excerpt: "Animal illustrations"
 image:
-  feature: butter.png
+  feature: animals/butter.png
   hero_top_position: -300px
 images:
   - src: animals/butter.png

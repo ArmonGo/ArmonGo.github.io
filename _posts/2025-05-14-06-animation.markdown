@@ -4,7 +4,7 @@ title:  "Comic Animations"
 date:   2025-05-13 00:00:00
 excerpt: "Various comic animations"
 image:
-  feature: animation.png
+  feature: animation/animation.png
   hero_top_position: -200px
 ---
 
